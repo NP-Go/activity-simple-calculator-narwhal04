@@ -5,24 +5,26 @@ import (
 	"strconv"
 )
 
-var c int
-var message, d string
+var (
+	c int
+	d string
+)
 
 func add(a, b int) int {
-	c := a + b
+	c = a + b
 	return c
 }
 
 func subtract(a, b int) int {
 	//Insert code here
-	c := a - b
+	c = a - b
 	return c
 
 }
 
 func multiply(a, b int) int {
 	//Insert code here
-	c := a * b
+	c = a * b
 	return c
 
 }
